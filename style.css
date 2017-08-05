@@ -7,6 +7,10 @@ body {
   margin: auto;
 }
 
+#nav {
+	text-align: center;
+}
+
 h1, h3 {
   margin: 0;
   margin-left: 5px;
