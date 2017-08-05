@@ -6,3 +6,8 @@ currentComic {
   width: 712px;
   margin: auto;
 }
+
+h1, h3 {
+  margin: 0;
+  margin-left: 5px;
+}
