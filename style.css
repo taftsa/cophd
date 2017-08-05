@@ -2,7 +2,7 @@ body {
   font-family: arial;
 }
 
-currentComic {
+#currentComic {
   width: 712px;
   margin: auto;
 }
