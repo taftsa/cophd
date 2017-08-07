@@ -1,0 +1,42 @@
+var comics = [
+	{number:'000', title:'A Terrible Idea', date:'8/4/2017'}, 
+	{number:'001', title:'Boulder "Food"', date:'8/6/2017'}
+];
+
+$(document).on("click", "#prev", function(){
+	var currentComic = $('#number').html() / 1;
+		
+	if (currentComic != 0) {
+		$('#comicImg').attr('src', 'comics/' + comics[currentComic - 1].number + '.jpg');
+		$('#likeContainer').html('<embed id="likeButton" src="https://taftsa.github.io/cophd/likes/' + comics[currentComic - 1].number + '.html" />');
+		
+		$('#number').html(comics[currentComic - 1].number);
+		$('#title').html(comics[currentComic - 1].title);
+		$('#date').html(comics[currentComic - 1].date);
+		
+	};
+});
+
+$(document).on("click", "#next", function(){
+	var currentComic = $('#number').html() / 1;
+		
+	if ((currentComic + 1) < comics.length) {
+		$('#comicImg').attr('src', 'comics/' + comics[currentComic + 1].number + '.jpg');
+		$('#likeContainer').html('<embed id="likeButton" src="https://taftsa.github.io/cophd/likes/' + comics[currentComic + 1].number + '.html" />');
+		
+		$('#number').html(comics[currentComic + 1].number);
+		$('#title').html(comics[currentComic + 1].title);
+		$('#date').html(comics[currentComic + 1].date);
+	};
+});
+
+$(document).ready(function() {
+	var newestComic = comics[(comics.length - 1)];	
+
+    $('#comicImg').attr('src', 'comics/' + newestComic.number + '.jpg');
+	$('#likeContainer').html('<embed id="likeButton" src="https://taftsa.github.io/cophd/likes/' + newestComic.number + '.html" />');
+	
+	$('#number').html(newestComic.number);
+	$('#title').html(newestComic.title);
+	$('#date').html(newestComic.date);
+});

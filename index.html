@@ -2,23 +2,23 @@
   <head>
     <title>COPhD</title>
     
-    <link rel="stylesheet" href="style.css">    
+    <link rel="stylesheet" href="style.css" />
+	<script src="http://code.jquery.com/jquery-3.2.1.js" integrity="sha256-DZAnKJ/6XZ9si04Hgrsxu/8s717jcIzLy3oi35EouyE=" crossorigin="anonymous"></script>
+	<script src="script.js"></script>
+	
   </head>
   <body>
     <h1>COPhD.</h1>
-    <h3>&emsp;<i>A poorly-drawn, hastily-written, and generally underwhelming comic.</i></h3>
+    <h3><i>A poorly drawn, hastily written, and generally underwhelming comic.</i></h3>
     
     <br />
     
-    <div id="currentComic">
-      <img src="comics/001.jpg" width="647px" height="500px" />
-    </div>	
-	<!-- LikeBtn.com BEGIN -->
-			<span class="likebtn-wrapper" data-i18n_like="Like" data-show_like_label="false" data-counter_frmt="km" data-loader_show="true" data-tooltip_enabled="false"></span>
-			<script>(function(d,e,s){if(d.getElementById("likebtn_wjs"))return;a=d.createElement(e);m=d.getElementsByTagName(e)[0];a.async=1;a.id="likebtn_wjs";a.src=s;m.parentNode.insertBefore(a, m)})(document,"script","//w.likebtn.com/js/w/widget.js");</script>
-		<!-- LikeBtn.com END -->
+    <div id="comic">
+		<div id="likeContainer"></div>
+		<img id="comicImg" src="" width="600px" height="464px" />
+    </div>
 	
-	<div id="nav"><a>&lt;&lt; prev</a> | <b><a href="https://taftsa.github.io/cophd/archives/001.html">001 - A Terrible Idea - 8/4/2017</a></b> | <a>next &gt;&gt;</a></div>
+	<div id="nav"><div id="prev">&lt;&lt; prev</div> | <b><span id="number"></span> - <span id="title"></span> - <span id="date"></span></b> | <div id="next">next &gt;&gt;</div></div>
     
   </body>
 </html>
