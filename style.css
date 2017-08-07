@@ -1,0 +1,61 @@
+body {
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+  color: white;
+  background-color: black;
+  user-select: none;
+}
+
+#comic {
+  width: 600px;
+  margin: auto;
+  position: relative;
+}
+
+#likeContainer {
+	position: absolute;
+	width: 100%;
+	height: 30px;
+}
+
+#likebutton {
+	position: absolute;
+	right: 2px;
+	top: 2px;
+	height: 30px;
+}
+
+#nav {
+  text-align: center;
+}
+
+h1, h3 {
+  margin: 0;  
+}
+
+h1 {
+  margin-top: 5px;
+  margin-left: 5px;
+  color: #CFB87C;
+}
+
+h3 {
+	margin-left: 20px;
+}
+
+#nav {
+	margin-top: 3px;
+}
+
+#title {
+	color: #CFB87C;
+}
+
+#prev, #next {
+	display: inline;
+	color: #565A5C;
+}
+
+#prev:hover, #next:hover {
+	color: #A2A4A3;
+	cursor: pointer;
+}
