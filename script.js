@@ -35,7 +35,7 @@ $(document).ready(function() {
 	var newestComic = comics[(comics.length - 1)];	
 
     	$('#comicImg').attr('src', 'comics/' + newestComic.number + '.jpg');
-	$('#comicImg').attr('title', currentComic.hover);
+	$('#comicImg').attr('title', newestComic.hover);
 	$('#likeContainer').html('<embed id="likeButton" src="likes/' + newestComic.number + '.html" />');
 	
 	$('#number').html(newestComic.number);
