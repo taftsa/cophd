@@ -8,7 +8,7 @@ $(document).on("click", "#prev", function(){
 		
 	if (currentComic != 0) {
 		$('#comicImg').attr('src', 'comics/' + comics[currentComic - 1].number + '.jpg');
-		$('#likeContainer').html('<embed id="likeButton" src="/likes/' + comics[currentComic - 1].number + '.html" />');
+		$('#likeContainer').html('<embed id="likeButton" src="likes/' + comics[currentComic - 1].number + '.html" />');
 		
 		$('#number').html(comics[currentComic - 1].number);
 		$('#title').html(comics[currentComic - 1].title);
@@ -22,7 +22,7 @@ $(document).on("click", "#next", function(){
 		
 	if ((currentComic + 1) < comics.length) {
 		$('#comicImg').attr('src', 'comics/' + comics[currentComic + 1].number + '.jpg');
-		$('#likeContainer').html('<embed id="likeButton" src="/likes/' + comics[currentComic + 1].number + '.html" />');
+		$('#likeContainer').html('<embed id="likeButton" src="likes/' + comics[currentComic + 1].number + '.html" />');
 		
 		$('#number').html(comics[currentComic + 1].number);
 		$('#title').html(comics[currentComic + 1].title);
@@ -34,7 +34,7 @@ $(document).ready(function() {
 	var newestComic = comics[(comics.length - 1)];	
 
     $('#comicImg').attr('src', 'comics/' + newestComic.number + '.jpg');
-	$('#likeContainer').html('<embed id="likeButton" src="/likes/' + newestComic.number + '.html" />');
+	$('#likeContainer').html('<embed id="likeButton" src="likes/' + newestComic.number + '.html" />');
 	
 	$('#number').html(newestComic.number);
 	$('#title').html(newestComic.title);
