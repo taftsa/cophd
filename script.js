@@ -13,8 +13,7 @@ $(document).on("click", "#prev", function(){
 		
 		$('#number').html(comics[currentComic - 1].number);
 		$('#title').html(comics[currentComic - 1].title);
-		$('#date').html(comics[currentComic - 1].date);
-		
+		$('#date').html(comics[currentComic - 1].date);		
 	};
 });
 
@@ -36,7 +35,7 @@ $(document).ready(function() {
 	var newestComic = comics[(comics.length - 1)];	
 
     	$('#comicImg').attr('src', 'comics/' + newestComic.number + '.jpg');
-	$('#comicImg').attr('title', comics[currentComic].hover);
+	$('#comicImg').attr('title', currentComic.hover);
 	$('#likeContainer').html('<embed id="likeButton" src="likes/' + newestComic.number + '.html" />');
 	
 	$('#number').html(newestComic.number);
