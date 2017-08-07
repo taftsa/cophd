@@ -31,7 +31,7 @@ $(document).on("click", "#next", function(){
 });
 
 $(document).ready(function() {
-	alert('It Loaded");
+	alert('It Loaded');
 	
 	var newestComic = comics[(comics.length - 1)];	
 
