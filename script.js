@@ -5,6 +5,7 @@ var comics = [
 	{number:'003', title:'What\'s in a name?', date:'8/20/2017', hover:'If she gets the job, he will have to learn my name. Or I\'ll have to change it...'},
 	{number:'004', title:'A Total Eclipse of the Played-Out 80\'s Music Joke', date:'8/27/2017',  hover:'We were able to see one star, but...'},
 	{number:'005', title:'Grammatical Efficiency', date:'9/4/2017', hover:'We seriously need to do something interesting.'},
+	{number: '006', title:'We Are What You Would Call "Indoorsy"', date:'9/10/2017', hover:'In our defense, we didn\'t plan well and barely paid attention to the path.'},
 ];
 
 $(document).on("click", "#prev", function(){
