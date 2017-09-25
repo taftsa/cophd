@@ -7,6 +7,7 @@ var comics = [
 	{number:'005', title:'Grammatical Efficiency', date:'9/4/2017', hover:'We seriously need to do something interesting.'},
 	{number:'006', title:'We Are What You Would Call "Indoorsy"', date:'9/10/2017', hover:'In our defense, we didn\'t plan well and barely paid attention to the path.'},
 	{number:'007', title:'Free Money!', date:'9/17/2017', hover:'She actually couldn\'t tell the difference between me and the video. It was pretty not-the-same.'},
+	{number:'008', title:'Needing Ingredients is Fake News', date:'9/24/2017', hover:'There\'s two different styles of "y" in "Anyway." Huh.'},
 ];
 
 $(document).on("click", "#prev", function(){
