@@ -10,7 +10,8 @@ var comics = [
 	{number:'008', title:'Needing Ingredients is Fake News', date:'9/24/2017', hover:'There\'s two different styles of "y" in "Anyway." Huh.'},
 	{number:'009', title:'Win Some, Lose Some', date:'10/1/2017', hover:'Amy is Mrs. Taft\'s favorite.'},
 	{number:'010', title:'An Arm and a Leg', date:'10/8/2017', hover:'The sun has the BSATS accent pattern around it.'},
-	{number:'011', title:'Very Car. Much Problems.', date:'10/15/2017', hover: 'I guess Car Talk can\'t solve ALL of my problems...'},
+	{number:'011', title:'Very Car. Much Problems.', date:'10/15/2017', hover:'I guess Car Talk can\'t solve ALL of my problems...'},
+	{number:'012', title:'The Secret Ingredient', date:'10/22/2017', hover:'This anecdote used with permission.'},
 ];
 
 $(document).on("click", "#prev", function(){
