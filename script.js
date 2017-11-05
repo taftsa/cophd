@@ -13,6 +13,7 @@ var comics = [
 	{number:'011', title:'Very Car. Much Problems.', date:'10/15/2017', hover:'I guess Car Talk can\'t solve ALL of my problems...'},
 	{number:'012', title:'The Secret Ingredient', date:'10/22/2017', hover:'This anecdote used with permission.'},
 	{number:'013', title:'Déjà Vu', date:'10/29/2017', hover:'Hey, I LIKE drawing the kitchen!'},
+	{number:'014', title:'Episode 4', date:'11/5/2017', hover:'How is the trash can open?'},
 ];
 
 $(document).on("click", "#prev", function(){
