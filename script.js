@@ -16,6 +16,7 @@ var comics = [
 	{number:'014', title:'Episode 4', date:'11/5/2017', hover:'How is the trash can open?'},
 	{number:'015', title:'A Mysterious Message', date:'11/12/2017', hover:'Vague hover text is vague.'},
 	{number:'016', title:'Do All of the Things', date:'11/19/2017', hover:'The taillights weren\'t actually out, I just don\'t know how cars work.'},
+	{number:'017', title:'Countdown to Christmas', date:'11/26/2017', hover:'Apparently, our TV is, like, 8 feet tall.'},
 ];
 
 $(document).on("click", "#prev", function(){
