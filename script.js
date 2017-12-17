@@ -19,6 +19,7 @@ var comics = [
 	{number:'017', title:'Countdown to Christmas', date:'11/26/2017', hover:'Apparently, our TV is, like, 8 feet tall.'},
 	{number:'018', title:'Washington, We Have a Problem', date:'12/3/2017', hover:'This is \'Murica, we don\'t care what time it is anywhere else.'},
 	{number:'019', title:'Priorities', date:'12/10/2017', hover:'Actually, yeah, that\'s fair.'},
+	{number:'020', title:'Montage', date:'12/17/2017', hover:'Two more days, two more days, two more...'},
 ];
 
 $(document).on("click", "#prev", function(){
