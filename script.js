@@ -20,7 +20,7 @@ var comics = [
 	{number:'018', title:'Washington, We Have a Problem', date:'12/3/2017', hover:'This is \'Murica, we don\'t care what time it is anywhere else.'},
 	{number:'019', title:'Priorities', date:'12/10/2017', hover:'Actually, yeah, that\'s fair.'},
 	{number:'020', title:'Montage', date:'12/17/2017', hover:'Two more days, two more days, two more...'},
-	{number:'021', title:'Guest Artist - Hannah Roldan', date:'1/14/2017', hover:'HANNAH HAS ALL OF THE TALENT.'},
+	{number:'021', title:'Guest Artist - Hannah Roldan', date:'1/14/2017', hover:'Hannah has ALL of the talent.'},
 ];
 
 $(document).on("click", "#prev", function(){
