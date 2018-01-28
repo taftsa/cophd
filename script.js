@@ -22,6 +22,7 @@ var comics = [
 	{number:'020', title:'Montage', date:'12/17/2017', hover:'Two more days, two more days, two more...'},
 	{number:'021', title:'Guest Artist - Hannah Roldan', date:'1/14/2017', hover:'Hannah has ALL of the talent.'},
 	{number:'022', title:'Back to "Normal"', date:'1/21/2017', hover:'That\'s orange juice in the second frame, by the way.'},
+	{number:'023', title:'Less Free Parking than Monopoly', date:'1/28/2017', hover:'Sometimes you feel like you\'re just moving around in circles.'},
 ];
 
 $(document).on("click", "#prev", function(){
