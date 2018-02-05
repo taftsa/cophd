@@ -20,9 +20,10 @@ var comics = [
 	{number:'018', title:'Washington, We Have a Problem', date:'12/3/2017', hover:'This is \'Murica, we don\'t care what time it is anywhere else.'},
 	{number:'019', title:'Priorities', date:'12/10/2017', hover:'Actually, yeah, that\'s fair.'},
 	{number:'020', title:'Montage', date:'12/17/2017', hover:'Two more days, two more days, two more...'},
-	{number:'021', title:'Guest Artist - Hannah Roldan', date:'1/14/2017', hover:'Hannah has ALL of the talent.'},
-	{number:'022', title:'Back to "Normal"', date:'1/21/2017', hover:'That\'s orange juice in the second frame, by the way.'},
-	{number:'023', title:'Less Free Parking than Monopoly', date:'1/28/2017', hover:'Sometimes you feel like you\'re just moving around in circles.'},
+	{number:'021', title:'Guest Artist - Hannah Roldan', date:'1/14/2018', hover:'Hannah has ALL of the talent.'},
+	{number:'022', title:'Back to "Normal"', date:'1/21/2018', hover:'That\'s orange juice in the second frame, by the way.'},
+	{number:'023', title:'Less Free Parking than Monopoly', date:'1/28/2018', hover:'Sometimes you feel like you\'re just moving around in circles.'},
+	{number:'024', title:'The Happiest of Birthdays', date:'2/4/2018', hover:'Until this comic was uploaded, all of this year\'s comics were dated 2017.'},
 ];
 
 $(document).on("click", "#prev", function(){
