@@ -24,6 +24,7 @@ var comics = [
 	{number:'022', title:'Back to "Normal"', date:'1/21/2018', hover:'That\'s orange juice in the second frame, by the way.'},
 	{number:'023', title:'Less Free Parking than Monopoly', date:'1/28/2018', hover:'Sometimes you feel like you\'re just moving around in circles.'},
 	{number:'024', title:'The Happiest of Birthdays', date:'2/4/2018', hover:'Until this comic was uploaded, all of this year\'s comics were dated 2017.'},
+	{number:'025', title:'Graduate-Level Performance', date:'2/11/2018', hover:'I think they spent more time talking about it than we spent playing.'},
 ];
 
 $(document).on("click", "#prev", function(){
