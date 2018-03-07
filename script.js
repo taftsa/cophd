@@ -27,6 +27,7 @@ var comics = [
 	{number:'025', title:'Graduate-Level Performance', date:'2/11/2018', hover:'I think they spent more time talking about it than we spent playing.'},
 	{number:'026', title:'CPR, Sort Of', date:'2/20/2018', hover:'There\'s a LOT I could have made fun of, but I didn\'t have space.'},
 	{number:'027', title:'Christmas Money', date:'2/27/2018', hover:'Wait, "Scrubs" had a season 9? I don\'t think that\'s right.'},
+	{number:'028', title:'Manuscript Submission', date:'3/6/2018', hover:'One of the most daunting submit buttons ever.'},
 ];
 
 $(document).on("click", "#prev", function(){
