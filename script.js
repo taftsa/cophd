@@ -31,6 +31,7 @@ var comics = [
 	{number:'029', title:'Vignettes', date:'3/13/2018', hover:'You can\'t NOT buy beef for $1.99/lb.!'},
 	{number:'030', title:'Substitute Teacher', date:'3/20/2018', hover:'The original idea for the last frame was the building on fire.'},
 	{number:'031', title:'We Live Here', date:'4/3/2018', hover:'Roz would be proud.'},
+	{number:'032', title:'TTODBDILBRCE', date:'4/10/2018', hover:'Weirdest study session ever.'},
 ];
 
 $(document).on("click", "#prev", function(){
