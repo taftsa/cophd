@@ -33,6 +33,7 @@ var comics = [
 	{number:'031', title:'We Live Here', date:'4/3/2018', hover:'Roz would be proud.'},
 	{number:'032', title:'TTODBDILBRCE', date:'4/10/2018', hover:'Weirdest study session ever.'},
 	{number:'033', title:'Word Definitions', date:'4/17/2018', hover:'Moral of the story: Don\'t define words.'},
+	{number:'034', title:'Ghost Phone', date:'4/24/2018', hover:'There\'s not a clock there. I don\'t know why I drew a clock there.'},
 ];
 
 $(document).on("click", "#prev", function(){
