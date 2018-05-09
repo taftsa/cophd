@@ -35,6 +35,7 @@ var comics = [
 	{number:'033', title:'Word Definitions', date:'4/17/2018', hover:'Moral of the story: Don\'t define words.'},
 	{number:'034', title:'Ghost Phone', date:'4/24/2018', hover:'There\'s not a clock there. I don\'t know why I drew a clock there.'},
 	{number:'035', title:'Grey\'s Anatomy', date:'5/1/2018', hover:'Caveat: Grey is still alive (for now).'},
+	{number:'036', title:'Season Finale', date:'5/8/2018', hover:'Getting bumped to Tuesday was a hard blow, but I think we can recover.'},
 ];
 
 $(document).on("click", "#prev", function(){
