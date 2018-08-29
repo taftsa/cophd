@@ -37,6 +37,7 @@ var comics = [
 	{number:'035', title:'Grey\'s Anatomy', date:'5/1/2018', hover:'Caveat: Grey is still alive (for now).'},
 	{number:'036', title:'Season Finale', date:'5/8/2018', hover:'Getting bumped to Tuesday was a hard blow, but I think we can recover.'},
 	{number:'037', title:'Ready Go', date:'8/21/2018', hover:'It was pretty good for a surprise statistics class.'},
+	{number:'038', title:'Dinosaur Hunt', date:'8/28/2018', hover:'The place we were looking for had fossils. That\'s why it\'s called "Dinosaur Hunt." I know that\'s not clear from the comic.'},
 ];
 
 $(document).on("click", "#prev", function(){
