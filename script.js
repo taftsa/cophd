@@ -38,6 +38,7 @@ var comics = [
 	{number:'036', title:'Season Finale', date:'5/8/2018', hover:'Getting bumped to Tuesday was a hard blow, but I think we can recover.'},
 	{number:'037', title:'Ready Go', date:'8/21/2018', hover:'It was pretty good for a surprise statistics class.'},
 	{number:'038', title:'Dinosaur Hunt', date:'8/28/2018', hover:'The place we were looking for had fossils. That\'s why it\'s called "Dinosaur Hunt." I know that\'s not clear from the comic.'},
+	{number:'039', title:'Actually Doin\' Stuff', date:'9/4/2018', hover:'Dante WAS a Dragonair...'},
 ];
 
 $(document).on("click", "#prev", function(){
