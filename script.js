@@ -42,6 +42,7 @@ var comics = [
 	{number:'040', title:'Reading for Class', date:'9/11/2018', hover:'For context, class is on Wednesday'},
 	{number:'041', title:'Scrimping and Saving', date:'9/18/2018', hover:'We actually got two. I prefer the Southwest to the Sweet Kale.'},
 	{number:'042', title:'Life, the Universe, and Everything', date:'9/25/2018', hover:'And definitely don\'t write a comic advertising it.'},
+	{number:'043', title:'Rocky Mountain National Highway', date:'10/02/2018', hover:'To see paradise / I just need a parking spot'},
 ];
 
 $(document).on("click", "#prev", function(){
