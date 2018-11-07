@@ -47,6 +47,7 @@ var comics = [
 	{number:'045', title:'Fantasy Football', date:'10/16/2018', hover:'Actually not the worst team; 7th out of 10 at the moment!'},
 	{number:'046', title:'Three Things in One Week', date:'10/23/2018', hover:'I really like drawing stick saxophone players.'},
 	{number:'047', title:'p = .051', date:'10/30/2018', hover:'Three guesses how many I got through before I got tired.'},
+	{number:'048', title:'A Slight Exaggeration', date:'11/6/2018', hover:'Not exact numbers, but equally insane.'},
 ];
 
 $(document).on("click", "#prev", function(){
