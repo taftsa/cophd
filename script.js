@@ -48,6 +48,7 @@ var comics = [
 	{number:'046', title:'Three Things in One Week', date:'10/23/2018', hover:'I really like drawing stick saxophone players.'},
 	{number:'047', title:'p = .051', date:'10/30/2018', hover:'Three guesses how many I got through before I got tired.'},
 	{number:'048', title:'A Slight Exaggeration', date:'11/6/2018', hover:'Not exact numbers, but equally insane.'},
+	{number:'049', title:'A Rather Blustery Day', date:'11/13/2018', hover:'Oh the wind is lashing lustily / And the trees are thrashing thrustily / And the leaves are rustling gustily'},
 ];
 
 $(document).on("click", "#prev", function(){
