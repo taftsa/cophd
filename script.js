@@ -49,6 +49,7 @@ var comics = [
 	{number:'047', title:'p = .051', date:'10/30/2018', hover:'Three guesses how many I got through before I got tired.'},
 	{number:'048', title:'A Slight Exaggeration', date:'11/6/2018', hover:'Not exact numbers, but equally insane.'},
 	{number:'049', title:'A Rather Blustery Day', date:'11/13/2018', hover:'Oh the wind is lashing lustily / And the trees are thrashing thrustily / And the leaves are rustling gustily'},
+	{number:'050', title:'Only 50?', date:'11/27/2018', hover:'Becca is holding a third dog, FYI.'},
 ];
 
 $(document).on("click", "#prev", function(){
