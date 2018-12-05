@@ -50,7 +50,7 @@ var comics = [
 	{number:'048', title:'A Slight Exaggeration', date:'11/6/2018', hover:'Not exact numbers, but equally insane.'},
 	{number:'049', title:'A Rather Blustery Day', date:'11/13/2018', hover:'Oh the wind is lashing lustily / And the trees are thrashing thrustily / And the leaves are rustling gustily'},
 	{number:'050', title:'Only 50?', date:'11/27/2018', hover:'Becca is holding a third dog, FYI.'},
-	{number:'051', title:'Christmas Tree Cakes', date:'12/4/2018', hover:'King Soopers is Kroger, in case  Easterners don\'t know.'},
+	{number:'051', title:'Christmas Tree Cakes', date:'12/4/2018', hover:'King Soopers is Kroger, in case Easterners don\'t know.'},
 ];
 
 $(document).on("click", "#prev", function(){
