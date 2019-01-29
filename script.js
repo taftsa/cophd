@@ -53,7 +53,7 @@ var comics = [
 	{number:'051', title:'Christmas Tree Cakes', date:'12/4/2018', hover:'King Soopers is Kroger, in case Easterners don\'t know.'},
 	{number:'052', title:'What We Have Here...', date:'12/11/2018', hover:'...is me being dumb.'},
 	{number:'053', title:'Perspective', date:'12/18/2018', hover:'Moon not to scale (probably).'},
-	{number:'054', title:'Next Week, Probably', date:'1/29/2019', hover:'Fun procedural note: I\'ve been scanning these as .pdf files and converting to .jpg, but it turns out that my scanner can just create .jps files! I\'m smart.'},
+	{number:'054', title:'Next Week, Probably', date:'1/29/2019', hover:'Fun procedural note: I\'ve been scanning these as .pdf files and converting to .jpg, but it turns out that my scanner can just create .jpg files! I\'m smart.'},
 	
 ];
 
