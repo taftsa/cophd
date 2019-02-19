@@ -56,6 +56,7 @@ var comics = [
 	{number:'054', title:'Next Week, Probably', date:'1/29/2019', hover:'Fun procedural note: I\'ve been scanning these as .pdf files and converting to .jpg, but it turns out that my scanner can just create .jpg files! I\'m smart.'},
 	{number:'055', title:'To-Do Lists', date:'2/5/2019', hover:'[muffled shouting]'},
 	{number:'056', title:'No Statistically Significant Predictors', date:'2/12/2019', hover:'Also no significant indicators of "Focus."'},
+	{number:'057', title:'Customer Service', date:'2/19/2019', hover:'"Have you tried deleting your return and starting over again?"'},
 ];
 
 $(document).on("click", "#prev", function(){
