@@ -59,6 +59,7 @@ var comics = [
 	{number:'057', title:'Customer Service', date:'2/19/2019', hover:'"Have you tried deleting your return and starting over again?"'},
 	{number:'058', title:'Work.', date:'2/26/2019', hover:'Work.'},
 	{number:'059', title:'A Few Extra Steps', date:'3/5/2019', hover:'I\'m pretty sure Tom and Ray said negative to negative was okay, but...'},
+	{number:'060', title:'Colorado Weather', date:'3/12/2019', hover:'We\'ll see.'},
 ];
 
 $(document).on("click", "#prev", function(){
