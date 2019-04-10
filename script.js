@@ -63,6 +63,7 @@ var comics = [
 	{number:'061', title:'Bar Gig', date:'3/19/2019', hover:'SCARAMOUCHE! SCARAMOUCHE! WILL YOU DO THE FANDANGO?'},
 	{number:'062', title:'Pandemic', date:'3/26/2019', hover:'That went... poorly.'},
 	{number:'063', title:'Spring Break', date:'4/2/2019', hover:'Our office has carpeted walls. That\'s not related, but...'},
+	{number:'064', title:'Toronto, ON', date:'4/9/2019', hover:'Norfolk, VA has a Tim Hortons, and I\'m excited about it.'},
 ];
 
 $(document).on("click", "#prev", function(){
