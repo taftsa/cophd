@@ -69,6 +69,7 @@ var comics = [
 	{number:'067', title:'Colorado Weather', date:'4/30/2019', hover:'And I thought Virginia weather was inconsistent.'},
 	{number:'068', title:'Locker Renewal', date:'4/7/2019', hover:'The pay is good, though.'},
 	{number:'069', title:'The Epic Conclusion', date:'8/26/2019', hover:'THE FIIINAAAL PAAAPERRR!!'},
+	{number:'070', title:'600/1100', date:'9/2/2019', hover:'In my defense, he said there was only one classroom on the 11th floor.'},
 ];
 
 $(document).on("click", "#prev", function(){
