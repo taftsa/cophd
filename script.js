@@ -70,6 +70,7 @@ var comics = [
 	{number:'068', title:'Locker Renewal', date:'4/7/2019', hover:'The pay is good, though.'},
 	{number:'069', title:'The Epic Conclusion', date:'8/26/2019', hover:'THE FIIINAAAL PAAAPERRR!!'},
 	{number:'070', title:'600/1100', date:'9/2/2019', hover:'In my defense, he said there was only one classroom on the 11th floor.'},
+	{number:'071', title:'Artistic License', date:'9/9/2019', hover:'This show has really gone downhill. Can we please change the channel?'},
 ];
 
 $(document).on("click", "#prev", function(){
