@@ -72,6 +72,7 @@ var comics = [
 	{number:'070', title:'600/1100', date:'9/2/2019', hover:'In my defense, he said there was only one classroom on the 11th floor.'},
 	{number:'071', title:'Artistic License', date:'9/9/2019', hover:'This show has really gone downhill. Can we please change the channel?'},
 	{number:'072', title:'Miniature Golf', date:'9/16/2019', hover:'We paid, but none of us are sure whether we really had to pay.'},
+	{number:'073', title:'Overconfidence', date:'9/23/2019', hover:'We did not win.'},
 ];
 
 $(document).on("click", "#prev", function(){
