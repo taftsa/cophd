@@ -74,6 +74,7 @@ var comics = [
 	{number:'072', title:'Miniature Golf', date:'9/16/2019', hover:'We paid, but none of us are sure whether we really had to pay.'},
 	{number:'073', title:'Overconfidence', date:'9/23/2019', hover:'We did not win.'},
 	{number:'074', title:'Toccata and Fugue', date:'9/30/2019', hover:'Yes, I drew the stems wrong in the first panel.'},
+	{number:'075', title:'Thing Explained', date:'10/10/2019', hover:'Using only the 1000 most commonly used words according to Randall Munroe.'},
 ];
 
 $(document).on("click", "#prev", function(){
