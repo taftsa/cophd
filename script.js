@@ -75,6 +75,7 @@ var comics = [
 	{number:'073', title:'Overconfidence', date:'9/23/2019', hover:'We did not win.'},
 	{number:'074', title:'Toccata and Fugue', date:'9/30/2019', hover:'Yes, I drew the stems wrong in the first panel.'},
 	{number:'075', title:'Thing Explained', date:'10/10/2019', hover:'Using only the 1000 most commonly used words according to Randall Munroe.'},
+	{number:'076', title:'Figure 3.2', date:'10/17/2019', hover:'"Akin to using an axe to cut butter. It\'ll work, but what a mess." -Prima Official Guide for Halo'},
 ];
 
 $(document).on("click", "#prev", function(){
