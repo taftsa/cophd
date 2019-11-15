@@ -79,6 +79,7 @@ var comics = [
 	{number:'077', title:'Chapter 1', date:'10/24/2019', hover:'It\'s most of what I\'m doing. It\'s not exactly interesting to draw about!'},
 	{number:'078', title:'Music Education', date:'10/30/2019', hover:'It\'s amazing how often I have the top half of this conversation.'},
 	{number:'079', title:'VGA in 2019', date:'11/7/2019', hover:'That\'s a tie I\'m wearing in the first frame.'},
+	{number:'080', title:'Label Maker', date:'11/14/2019', hover:'The label maker isn\'t Zelda-themed, but it should be.'},
 ];
 
 $(document).on("click", "#prev", function(){
