@@ -81,6 +81,7 @@ var comics = [
 	{number:'079', title:'VGA in 2019', date:'11/7/2019', hover:'That\'s a tie I\'m wearing in the first frame.'},
 	{number:'080', title:'Label Maker', date:'11/14/2019', hover:'The label maker isn\'t Zelda-themed, but it should be.'},
 	{number:'081', title:'Last Plane to DC', date:'11/21/2019', hover:'When we get back, it\'ll be the future!'},
+	{number:'082', title:'Identity Crisis', date:'12/5/2019', hover:'I guess he\'s never seen the hover text then...'},
 ];
 
 $(document).on("click", "#prev", function(){
