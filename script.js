@@ -83,6 +83,7 @@ var comics = [
 	{number:'081', title:'Last Plane to DC', date:'11/21/2019', hover:'When we get back, it\'ll be the future!'},
 	{number:'082', title:'Identity Crisis', date:'12/5/2019', hover:'I guess he\'s never seen the hover text then...'},
 	{number:'083', title:'Context', date:'12/12/2019', hover:'Update: Still on cardstock!'},
+	{number:'084', title:'In Case of Eye Contact', date:'2/4/2020', hover:'It\'s fine, officer, my laundry additive told me to.'},
 ];
 
 $(document).on("click", "#prev", function(){
